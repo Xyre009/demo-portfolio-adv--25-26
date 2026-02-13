@@ -3,10 +3,12 @@ import Button from "./component/Button";
 import Button_danger from "./component/Button_danger";
 import Project_card from "./component/Project_card";
 import Image from "next/image";
-
+import Navbar from "./component/navbar";
 export default function Home() {
   return (
-    <div>
+    <div className=" bg- text-yellow-800">
+  <div>    <Navbar/>
+  </div>
     <h1> About Me</h1>
     <p> Hello! my name is Erick Fernandez, I am a student at Tech High motivated to learn cs. I have more then +2 years in experience with multiple cs languages.</p>
    <h1>What I do</h1>
@@ -30,7 +32,7 @@ export default function Home() {
    
    
    <div>
-
+   
     <p> This is my stylesheet</p>
     <Image src="/OIP.png" alt="My Image" width={400} height={900} />
     <h1 className="heading1">This is my Heading 1</h1>
@@ -42,6 +44,7 @@ export default function Home() {
    <Button_danger text={"delete Me!"} />
    </div>
 <Project_card title={"project"} date={""} info={""} src={"path/to/image.jpg"} alt={"Description of the image"}/>
+    
      </div>
 
   );
