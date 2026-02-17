@@ -12,13 +12,16 @@ export default function About() {
       </div>
 
       {/* Main Heading */}
-      <h1 className="text-center text-4xl font-bold mt-6 inline-block bg-yellow-200 px-4 py-2 rounded">
-  About Me
-</h1>
+     <div className="flex items-center justify-center h-20 ">
+  <h1 className="text-2xl sm:text-3xl lg:text-xl font-bold text-center">
+    About Me
+  </h1>
+</div>
+
 
       {/* About Section */}
       <p className="mt-4 max-w-2xl mx-auto text-center">
-        Hello! My name is Erick Fernandez. I am a student at Tech High motivated to learn CS. 
+        Hello! My name is `Erick Fernandez. I am a student at Tech High motivated to learn CS. 
         I have more than 2 years of experience with multiple programming languages.
       </p>
 
